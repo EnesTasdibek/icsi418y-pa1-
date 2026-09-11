@@ -1,1 +1,31 @@
+<!-- 
+ Your page must contain at least:
+•	A page title or heading 👍
+•	A form for entering a new task 👍
+•	A text input for the task name 👍
+•	A priority selection 👍
+•	An Add Task button 👍
+•	An area where tasks will be displayed 👍
 
+The priority input must provide the following options: 👍
+•	Low 👍
+•	Medium 👍
+•	Highs 👍
+-->
+
+<h1 class = "intro">My Task List</h1>
+<form id="task-form">
+    <label for="task-input">Task:</label>
+    <input id="task-input" type="text">
+    <label for="priority">Priority:</label>
+    <select id="priority">
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+    </select>
+    <button type="submit">Add Task</button>
+</form>
+<div id="task-list"></div>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>

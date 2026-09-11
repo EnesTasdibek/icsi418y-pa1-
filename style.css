@@ -1,1 +1,39 @@
+/*
+Use "style.css" to make the application organized and readable.
+
+Your stylesheet must demonstrate:
+•	At least one element selector 👍
+•	At least one class selector 👍
+•	Margin and/or padding 👍
+•	Border or background styling 👍
+•	A visually different appearance for completed tasks 👍
+*/
+
+.completed {
+    text-decoration: line-through dotted red;
+}
+
+h1 {
+  color: darkblue;
+  font-size: 32px;
+}
+
+.intro {
+  background-color: rgb(250, 250, 5);
+}
+
+div {
+  background-color: rgb(250, 250, 5);
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+#task-list div {
+  border: 2px solid rgb(4, 102, 249);
+  padding: 1px;
+  margin-bottom: 8px;
+}
+
 
