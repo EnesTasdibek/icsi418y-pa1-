@@ -2,17 +2,17 @@
 Use "script.js" to implement the interactive behavior.
 
 You will need to work with:
-•	variables 👍
-•	arrays 👍
+•	variables
+•	arrays
 •	objects 
-•	functions 👍
-•	event listeners 👍
+•	functions
+•	event listeners
 •	DOM elements 
 
-Also need references to: 👍
-•	the task input 👍
-•	the priority input 👍
-•	the task display area 👍
+Also need references to:
+•	the task input
+•	the priority input
+•	the task display area
 */
 
 //Step 1: Use JavaScript to obtain references to the form and its controls.
